@@ -45,3 +45,85 @@ nav {
   font-weight: 400;
   font-size: 1.4rem;
 }
+
+.btn-whatsapp {
+  background: linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
+  background-color: #f9f9f9;
+  border-radius: 25px;
+  border: 1px solid #dcdcdc;
+  display: inline-block;
+  cursor: pointer;
+  color: #666666;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 12px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffffff;
+}
+.btn-whatsapp:hover {
+  background: linear-gradient(to bottom, #e9e9e9 5%, #f9f9f9 100%);
+  background-color: #e9e9e9;
+}
+.btn-whatsapp:active {
+  position: relative;
+  top: 1px;
+}
+
+.btn-email {
+  background: linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
+  background-color: #f9f9f9;
+  border-radius: 25px;
+  border: 1px solid #dcdcdc;
+  display: inline-block;
+  cursor: pointer;
+  color: #666666;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 12px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffffff;
+}
+.btn-email:hover {
+  background: linear-gradient(to bottom, #e9e9e9 5%, #f9f9f9 100%);
+  background-color: #e9e9e9;
+}
+.btn-email:active {
+  position: relative;
+  top: 1px;
+}
+
+/* Media Queries */
+
+@media (max-width: 991.98px) {
+  .navbar-brand {
+    font-size: 20px !important;
+  }
+
+  .navbar-toggler {
+    margin-right: 30px;
+  }
+
+  .servicios {
+    max-width: min-content !important;
+  }
+
+  .video-home {
+    display: none !important;
+  }
+
+  .info-adicional {
+    display: none !important;
+  }
+
+  .nosotros {
+    margin-top: -12px !important;
+  }
+
+  .contacto {
+    display: flex !important;
+    flex-direction: column !important;
+    margin-top: 5px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
