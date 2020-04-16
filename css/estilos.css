@@ -1,0 +1,47 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.nav-link {
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Playfair Display", serif;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  position: absolute;
+}
+
+.titulo {
+  position: absolute;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 175px;
+}
+
+.subtitulo {
+  font-family: "Roboto", sans-serif;
+  position: absolute;
+  margin-top: 300px;
+  margin-left: 175px;
+  font-weight: 400;
+  font-size: 1.4rem;
+}
