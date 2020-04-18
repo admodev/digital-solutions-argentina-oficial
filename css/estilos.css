@@ -95,6 +95,11 @@ nav {
 /* Media Queries */
 
 @media (max-width: 991.98px) {
+  .margen-mq {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
   .navbar-brand {
     font-size: 20px !important;
   }
@@ -122,8 +127,12 @@ nav {
   .contacto {
     display: flex !important;
     flex-direction: column !important;
-    margin-top: 5px !important;
+    margin-top: 52px !important;
     margin-left: auto !important;
     margin-right: auto !important;
+  }
+
+  .descarga {
+    max-width: 252px;
   }
 }
