@@ -30,6 +30,10 @@ nav {
   position: absolute;
 }
 
+.navbar-brand {
+  font-size: 1.8rem;
+}
+
 .titulo {
   position: absolute;
   text-transform: uppercase;
@@ -92,9 +96,54 @@ nav {
   top: 1px;
 }
 
+.video {
+  width: 100%;
+}
+
+.card-info {
+  max-width: 18rem;
+}
+
+.contacto {
+  margin-top: 200px;
+  margin-left: 450px;
+}
+
+.titulo-nosotros {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.parrafo-nosotros {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.titulo-conocenos {
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+.parrafo-conocenos {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.descarga {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border: 2px solid #fff;
+  max-width: 300px;
+  padding: 10px;
+  border-radius: 12px;
+}
+
 /* Media Queries */
 
-@media (max-width: 991.98px) {
+@media (max-width: 768px) {
   .margen-mq {
     margin-left: 25px;
     margin-right: 25px;
@@ -133,6 +182,14 @@ nav {
   }
 
   .descarga {
-    max-width: 252px;
+    max-width: fit-content;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.4rem;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 2px solid #fff;
+    padding: 5px;
+    border-radius: 12px;
   }
 }

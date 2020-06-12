@@ -6,7 +6,7 @@
     <title>Digital Solutions Argentina</title>
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/estilos.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -15,10 +15,6 @@
 <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
 <style>
   body {
     background-color: #1f1f1f;
@@ -29,39 +25,47 @@
 <body>
 <header>
     <nav class="navbar navbar-dark bg-dark">
-        <a class="navbar-brand" href="./index.html" style="font-size: 1.8rem;">Digital Solutions</a>
+        <a class="navbar-brand mx-auto" href="./index.html">Digital Solutions</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
       
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
+          <ul class="navbar-nav mr-auto mx-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="./index.html">Página De Inicio</a>
+              <a class="nav-link text-center" href="./index.html">Página De Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Portfolio</a>
+              <a class="nav-link text-center" href="#">Portfolio</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Acerca De Nosotros <span class="sr-only">(current)</span></a>
+                <a class="nav-link text-center" href="#">Acerca De Nosotros <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./contacto.html">Contacto</a>
+                <a class="nav-link text-center" href="./contacto.html">Contacto</a>
               </li>
         </div>
       </nav>
 </header>
     <div class="nosotros container d-flex flex-column mt-5">
-      <h1 class="mt-5 text-white" style="font-size: 4rem; font-weight: 700;">Sobre nosotros</h1>
-    <p class="mt-2 text-white" style="font-size: 1.5rem; font-weight: 400;">Somos una agencia creativa digital ubicada en Buenos Aires, Argentina, <br> pero ofrecemos un servicio internacional.</p>
+      <h1 class="mt-5 text-white titulo-nosotros">Sobre nosotros</h1>
+    <p class="mt-2 text-white parrafo-nosotros">Somos una agencia creativa digital ubicada en Buenos Aires, Argentina, <br> pero ofrecemos un servicio internacional.</p>
 
-    <h2 class="mt-5 text-white" style="font-size: 3.5rem; font-weight: 700;">Conocenos</h2>
-    <p class="mt-2 text-white" style="font-size: 1.5rem; font-weight: 400;">Ofrecemos videollamadas y/o reuniones personales para que nuestros clientes <br> obtengan la mejor experiencia y el mejor trato de nuestra parte.</p>
+    <h2 class="mt-5 text-white titulo-conocenos">Conocenos</h2>
+    <p class="mt-2 text-white parrafo-conocenos">Ofrecemos videollamadas y/o reuniones personales para que nuestros clientes <br> obtengan la mejor experiencia y el mejor trato de nuestra parte.</p>
 
-    <a href="./assets/Servicios.pdf" download class="text-white text-decoration-none descarga" style="font-family: 'Roboto', sans-serif; font-size: 2rem; margin-top: 25px; margin-bottom: 25px; border: 2px solid #fff; max-width: 400px; padding: 25px; border-radius: 12px;">Quiero Más Información</a>
+    <a href="./assets/Servicios.pdf" download class="text-white text-decoration-none descarga">Más Información</a>
     </div>
 
+
+
+
 <script src="./js/index.js"></script>
+<!-- HubSpot Embed Code -->
 <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/7484309.js"></script>
+<!-- Fin HubSpot Embed Code -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
